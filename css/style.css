@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-/* seccion header */
+                                /* seccion header */    
 header {
     margin: 0 auto;
     width: 1200px;
@@ -214,9 +214,9 @@ header {
     color: #2196F3;
 }
 
-/* seccion de main */
+                                /* seccion de main */
 
-/* background e img + txt*/
+                                /* background e img + txt*/
 
 .Solutions .Solutions__container {
     background-color: #2F303A;
@@ -260,7 +260,7 @@ header {
     margin-top: 20px;
 }
 
-/* Ventana Modal */
+                                /* Ventana Modal */
 
 
 .modal__close {
@@ -329,7 +329,7 @@ header {
 
 }
 
-/* Contenido modal */
+                                /* Contenido modal */
 
 .modal__header {
     width: 448px;
@@ -344,7 +344,7 @@ header {
     color: #212121;
 }
 
-/* Nombre - telf - mail - check */
+                                /* Nombre - telf - mail - check */
 
 .modal__item_Firts {
     position: relative;
@@ -535,7 +535,7 @@ textarea:focus {
 
 
 
-/* beneficios + img */
+                                /* beneficios + img */
 
 
 .Beneficios .beneficios__container .beneficios__txt {
@@ -597,7 +597,7 @@ textarea:focus {
 }
 
 
-/* Dedicacion */
+                                /* Dedicacion */
 
 .Dedication {
     overflow: hidden;
@@ -657,7 +657,7 @@ textarea:focus {
 
 
 
-/* Our Team */
+                                /* Our Team */
 
 .Team {
     display: flex;
@@ -770,7 +770,7 @@ textarea:focus {
     margin-left: -1px;
 }
 
-/* Clientes */
+                                /* Clientes */
 
 .customers {
     width: 1200px;
@@ -847,7 +847,7 @@ textarea:focus {
 
 }
 
-/* Footer seccion final */
+                                /* Footer seccion final */
 
 .TimeOut {
 
@@ -1092,20 +1092,6 @@ textarea:focus {
     color: #2196F3;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .Hero,
 .Solutions,
 .Beneficios,
@@ -1120,4 +1106,3 @@ textarea:focus {
     padding: 0 auto;
     margin: 0 auto;
 }
-

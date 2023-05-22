@@ -660,7 +660,6 @@ textarea:focus {
     margin: auto;
     margin-top: 25px;
     margin-left: 5px;
-
 }
 
 .team__social .team__social-item {
@@ -681,36 +680,30 @@ textarea:focus {
 
 .team__social .team__social-item:focus {
     background-color: var(--color-primario);
+    transform: scale(3.1);
+    width: 44px;
+    height: 44px;
 }
 
-
+.team__social .team__social-item a:focus .icono-item {
+    border-radius: 100%;
+    fill: var(--color-sexto);
+    background-color: #188CE8;
+    transform: scale(1.5);
+}
 
 .team__social .team__social-item svg {
-
     margin-top: 10px;
     margin-left: -1px;
-
 }
 
 .icono-item {
-
     stroke-width: 0;
     stroke: currentColor;
     fill: var(--color-septimo);
     width: 22px;
     height: 22px;
 }
-
-.Team .team__social-item a:focus .icono-item,
-.Team .team__social-item a:focus svg {
-    width: 44px;
-    height: 44px;
-    border-radius: 100%;
-    fill: var(--color-sexto);
-    background-color: #188CE8;
-}
-
-
 
 
 
@@ -787,10 +780,6 @@ textarea:focus {
 
 .customers__icn:hover {
     fill: var(--color-primario);
-}
-
-.icono-item:hover {
-    fill: var(--color-sexto);
 }
 
 /* Footer seccion final */

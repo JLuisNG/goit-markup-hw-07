@@ -698,7 +698,7 @@ textarea:focus {
     stroke-width: 0;
     stroke: currentColor;
     fill: var(--color-septimo);
-    background-color: #188CE8;
+    
 }
 
 .team__social-item a{

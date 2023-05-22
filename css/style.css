@@ -661,12 +661,14 @@ textarea:focus {
     margin: auto;
     margin-top: 15px;
     margin-left: 5px;
+    width: 44px;
+    height: 44px;
 }
 
 .icono-item {
     display: inline-block;
-    width: 44px;
-    height: 44px;
+    width: 22px;
+    height: 22px;
     stroke-width: 0;
     stroke: currentColor;
     fill: var(--color-septimo);
@@ -674,12 +676,15 @@ textarea:focus {
     margin-top: 8px;
 }
 
+
+
 .team__social ul .team__social-item:hover .icono-item {
     fill: var(--color-sexto);
 }
 
 .team__social ul .team__social-item:focus .icono-item {
     fill: var(--color-sexto);
+
 }
 
 .team__social .team__social-item {
@@ -710,7 +715,7 @@ textarea:focus {
 }
 
 .Team .team__social-item a:focus {
-    outline: none;
+
     background-color: var(--color-primario);
     border-radius: 100%;
 }

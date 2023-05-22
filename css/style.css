@@ -183,6 +183,16 @@ header {
     color: var(--color-primario);
 }
 
+.Hero__mail-icon:focus .Hero__icon use,
+.Hero__telf-icon:focus .Hero__icon use,
+.Hero__mail-container:focus .Hero__icon,
+.Hero__telf-container:focus .Hero__icon,
+.Hero__mail1:focus .Hero__icon,
+.Hero__telf:focus .Hero__icon {
+    fill: var(--color-primario);
+    color: var(--color-primario);
+}
+
 
 .Solutions .Solutions__container {
     background-color: var(--color-fondo-solutions);

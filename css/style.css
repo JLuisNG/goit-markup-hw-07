@@ -591,6 +591,8 @@ textarea:focus {
     color: var(--color-sexto);
 }
 
+                /* TEAM */
+
 .Team {
     display: flex;
     justify-content: center;
@@ -692,6 +694,11 @@ textarea:focus {
     background-color: var(--color-primario);
 }
 
+.Team .team__social-item:focus {
+    background-color: var(--color-primario);
+
+}
+
 .team__social .team__social-item svg {
     margin-top: 10px;
     margin-left: -1px;
@@ -701,6 +708,13 @@ textarea:focus {
 .Team .team__social-item a:focus svg {
     fill: var(--color-sexto);
 }
+
+.Team .team__social-item a:focus {
+    outline: none;
+    background-color: var(--color-primario);
+    border-radius: 100%;
+}
+
 
 
 .customers {

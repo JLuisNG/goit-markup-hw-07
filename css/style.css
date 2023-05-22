@@ -697,6 +697,12 @@ textarea:focus {
     margin-left: -1px;
 }
 
+.Team .team__social-item a:focus .icono-item,
+.Team .team__social-item a:focus svg {
+    fill: var(--color-sexto);
+}
+
+
 .customers {
     width: 1200px;
     height: 400px;

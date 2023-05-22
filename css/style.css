@@ -680,12 +680,11 @@ textarea:focus {
 
 .team__social .team__social-item:focus {
     background-color: var(--color-primario);
-    transform: scale(3.1);
-    width: 44px;
-    height: 44px;
+
 }
 
 .team__social .team__social-item a:focus .icono-item {
+    
     border-radius: 100%;
     fill: var(--color-sexto);
     background-color: #188CE8;

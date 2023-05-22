@@ -627,6 +627,10 @@ textarea:focus {
     margin-top: 40px;
 }
 
+.Team .container .team__item img {
+    margin-bottom: 5px;
+}
+
 .Team .container .team__item .team__name {
     font-family: 'Roboto';
     font-style: normal;
@@ -648,42 +652,14 @@ textarea:focus {
     margin-top: 15px;
 }
 
-.Team .container .team__item img {
-    margin-bottom: 5px;
-}
-
 .Team .team__social {
     border-radius: 100%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 5px;
-    width: 44px;
-    height: 44px;
-}
-
-.icono-item {
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: var(--color-septimo);
-    align-self: center;
-    margin-top: 8px;
-}
-
-
-
-.team__social ul .team__social-item:hover .icono-item {
-    fill: var(--color-sexto);
-}
-
-.team__social ul .team__social-item:focus .icono-item {
-    fill: var(--color-sexto);
 
 }
 
@@ -695,30 +671,56 @@ textarea:focus {
     margin-left: 5px;
 }
 
+.team__social .team__social-item:hover .icono-item {
+    fill: var(--color-sexto);
+}
+
 .team__social .team__social-item:hover {
     background-color: var(--color-primario);
 }
 
-.Team .team__social-item:focus {
+.team__social .team__social-item:focus {
     background-color: var(--color-primario);
+}
+
+
+
+.team__social .team__social-item svg {
+
+    margin-top: 10px;
+    margin-left: -1px;
 
 }
 
-.team__social .team__social-item svg {
-    margin-top: 10px;
-    margin-left: -1px;
+.icono-item {
+
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: var(--color-septimo);
+    width: 22px;
+    height: 22px;
 }
 
 .Team .team__social-item a:focus .icono-item,
 .Team .team__social-item a:focus svg {
-    fill: var(--color-sexto);
-}
-
-.Team .team__social-item a:focus {
-
-    background-color: var(--color-primario);
+    width: 44px;
+    height: 44px;
     border-radius: 100%;
+    fill: var(--color-sexto);
+    background-color: #188CE8;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

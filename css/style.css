@@ -673,13 +673,9 @@ textarea:focus {
     fill: var(--color-sexto);
 }
 
-.team__social .team__social-item:hover {
-    background-color: var(--color-primario);
-}
-
+.team__social .team__social-item:hover, 
 .team__social .team__social-item:focus {
     background-color: var(--color-primario);
-
 }
 
 .team__social .team__social-item a:focus .icono-item {

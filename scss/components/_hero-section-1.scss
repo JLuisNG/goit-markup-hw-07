@@ -1,0 +1,173 @@
+.Hero__Header-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 80px;
+
+    .Hero__Nav-container {
+            display: flex;
+            gap: 100px;
+            align-items: center;
+            height: 100%;
+        }
+    
+        .Hero__list-nav {
+            display: flex;
+            gap: 25px;
+            margin-top: 10px;
+        }
+    
+        .Hero__Web-Studio {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            letter-spacing: 3%;
+            text-align: center;
+            text-decoration: none;
+            color: var(--color-primario);
+    
+        }
+    
+        .Hero__Estudio {
+            display: flex;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.14px;
+            letter-spacing: 16%;
+            color: var(--color-primario);
+            position: relative;
+        }
+    
+        .Hero__Estudio:hover,
+        .Hero__Estudio:focus {
+            color: var(--color-primario);
+        }
+    
+        .Hero__Estudio::after {
+            content: "";
+            position: absolute;
+            top: 33px;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background-color: var(--color-primario);
+            border-radius: 5px;
+        }
+    
+        .Hero__Portafolio,
+        .Hero__Contactos {
+            display: flex;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.14px;
+            letter-spacing: 16%;
+            color: var(--color-secundario);
+        }
+    
+        .Hero__Estudio:hover,
+        .Hero__Portafolio:hover,
+        .Hero__Contactos:hover,
+        .Hero__Estudio:focus,
+        .Hero__Portafolio:focus,
+        .Hero__Contactos:focus {
+            color: var(--color-primario);
+        }
+    
+        .Hero__contacts-nav {
+            margin-left: auto;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+    
+        .Hero__mail1,
+        .Hero__telf {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.14px;
+            letter-spacing: 16%;
+            text-align: left;
+            color: var(--color-terciario);
+        }
+    
+        .Hero__telf-container,
+        .Hero__mail-container {
+            display: flex;
+            align-items: center;
+        }
+    
+        .Hero__icon {
+            width: 35px;
+            height: 35px;
+            stroke-width: 0;
+            stroke: currentColor;
+            align-self: flex-start;
+            margin-bottom: -20px;
+            fill: var(--color-terciario);
+        }
+    
+        .Hero__mail-icon:hover svg.Hero__icon use,
+        .Hero__mail-icon:focus svg.Hero__icon use,
+        .Hero__telf-icon:hover svg.Hero__icon use,
+        .Hero__telf-icon:focus svg.Hero__icon use {
+            fill: var(--color-primario);
+            color: var(--color-primario);
+            text-decoration: none;
+        }
+    
+        .Hero__mail-container:hover .Hero__icon,
+        .Hero__mail-container:hover .Hero__mail1,
+        .Hero__telf-container:hover .Hero__icon,
+        .Hero__telf-container:hover .Hero__telf,
+        .Hero__mail-container:focus .Hero__icon,
+        .Hero__mail-container:focus .Hero__mail1,
+        .Hero__telf-container:focus .Hero__icon,
+        .Hero__telf-container:focus .Hero__telf,
+        .Hero__mail1:hover .Hero__icon,
+        .Hero__mail1:focus .Hero__icon,
+        .Hero__telf:hover .Hero__icon,
+        .Hero__telf:focus .Hero__icon {
+            color: var(--color-primario);
+        }
+    
+        .Hero__mail1:hover,
+        .Hero__mail1:focus,
+        .Hero__telf:hover,
+        .Hero__telf:focus,
+        .Hero__mail1:active,
+        .Hero__telf:active,
+        .Hero__mail-container:active .Hero__icon,
+        .Hero__mail-container:active .Hero__mail1,
+        .Hero__telf-container:active .Hero__icon,
+        .Hero__telf-container:active .Hero__telf {
+            color: var(--color-primario);
+        }
+    
+        .Hero__mail1:hover,
+        .Hero__mail1:focus,
+        .Hero__telf:hover,
+        .Hero__telf:focus {
+            color: var(--color-primario);
+        }
+    
+        .Hero__mail1:active .Hero__icon use,
+        .Hero__telf:active .Hero__icon use {
+            fill: var(--color-primario);
+            color: var(--color-primario);
+        }
+    
+        .Hero__mail-icon:focus .Hero__icon use,
+        .Hero__telf-icon:focus .Hero__icon use,
+        .Hero__mail-container:focus .Hero__icon,
+        .Hero__telf-container:focus .Hero__icon,
+        .Hero__mail1:focus .Hero__icon,
+        .Hero__telf:focus .Hero__icon {
+            fill: var(--color-primario);
+            color: var(--color-primario);
+        }
+}

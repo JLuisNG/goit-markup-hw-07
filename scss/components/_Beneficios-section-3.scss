@@ -1,0 +1,56 @@
+.Beneficios .beneficios__container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+    .beneficios__txt {
+            width: 1200px;
+            margin: auto;
+            display: flex;
+            margin-top: 10px;
+        }
+    
+        .beneficios__txt_Firts {
+            width: 270px;
+            vertical-align: top;
+            margin-right: 30px;
+            margin-bottom: 30px;
+            margin-top: 15px;
+        }
+    
+        .beneficios__txt_Firts h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400px;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 3%;
+        }
+    
+        .beneficios__txt_Firts p {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400px;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 3%;
+            color: var(--color-terciario);
+        }
+    
+        .beneficios__svg-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--color-cuaternario);
+            border-radius: 4px;
+            width: 270px;
+            height: 75%;
+            margin-right: 30px;
+            margin-bottom: 30px;
+            margin-top: 15px;
+        }
+    
+        .beneficios__svg-container:hover {
+            border: 1px solid var(--color-primario);
+        }
+}

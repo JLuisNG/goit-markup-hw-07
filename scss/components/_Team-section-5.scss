@@ -1,0 +1,115 @@
+.Team {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+        .container {
+            text-align: center;
+            margin-top: 80px;
+            background-color: var(--color-cuaternario);
+            width: 1600px;
+        }
+    
+        .team__title_ourT h2 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            padding-top: 20px;
+            color: var(--color-secundario);
+            margin-top: 20px;
+        }
+    
+        .team__item {
+            display: flex;
+            border: 0.1px solid #ccc;
+            margin: 11px;
+            box-shadow: 0px 1px 3px;
+            margin-top: 40px;
+        }
+    
+        .team__item img {
+            margin-bottom: 5px;
+        }
+    
+        .team__name {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: var(--color-secundario);
+            margin-top: 25px;
+        }
+    
+        .team__role {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: 0.03em;
+            color: var(--color-terciario);
+            margin-top: 15px;
+        }
+    
+        .team__social {
+    
+            margin-top: 25px;
+            margin-left: 5px;
+        }
+    
+        .team__social-item {
+            border-radius: 100%;
+            width: 44px;
+            height: 44px;
+            margin: 5px;
+        }
+    
+        .team__social-item:hover .icono-item {
+            fill: var(--color-sexto);
+        }
+    
+        .team__social-item:hover,
+        .team__social-item:focus {
+            background-color: var(--color-primario);
+        }
+    
+        .team__social-item a:focus {
+    
+            width: 44px;
+            height: 44px;
+            border-radius: 100%;
+            fill: var(--color-sexto);
+            background-color: #188CE8;
+            outline: none;
+    
+        }
+    
+        .team__social-item a:focus .icono-item {
+    
+            fill: #ffffff;
+        }
+    
+        .icono-item {
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+            align-items: center;
+            stroke-width: 0;
+            stroke: currentColor;
+            fill: var(--color-septimo);
+    
+        }
+    
+        .team__social-item a {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+}

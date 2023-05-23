@@ -1,0 +1,47 @@
+.Dedication {
+    overflow: hidden;
+
+        .container{
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .Dedication__title h2 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: var(--color-secundario);
+        }
+    
+        .Dedication__item {
+            margin: 15px;
+            width: 373px;
+            height: 323px;
+            margin-top: 80px;
+        }
+    
+        .dedication__text {
+            background-color: var(--color-quintario);
+            width: 373px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            bottom: 73px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: var(--color-sexto);
+        }
+}

@@ -675,7 +675,9 @@ textarea:focus {
 }
 
 .team__social .team__social-item a:focus .icono-item {
-    
+
+    width: 44px;
+    height: 44px;
     border-radius: 100%;
     fill: var(--color-sexto);
     background-color: #188CE8;

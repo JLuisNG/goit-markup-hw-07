@@ -669,19 +669,26 @@ textarea:focus {
     fill: var(--color-sexto);
 }
 
+
 .team__social .team__social-item:hover, 
 .team__social .team__social-item:focus {
     background-color: var(--color-primario);
 }
 
-.team__social .team__social-item a:focus .icono-item {
+.team__social .team__social-item a:focus{
 
     width: 44px;
     height: 44px;
     border-radius: 100%;
     fill: var(--color-sexto);
     background-color: #188CE8;
+    outline: none;
 
+}
+
+.team__social .team__social-item a:focus .icono-item {
+    
+    fill: #ffffff;
 }
 
 .icono-item {
@@ -692,7 +699,7 @@ textarea:focus {
     stroke-width: 0;
     stroke: currentColor;
     fill: var(--color-septimo);
-    
+
 }
 
 .team__social-item a{
@@ -704,13 +711,7 @@ textarea:focus {
 }
 
 
-
-
-
-
-
-
-
+/* Customers */
 
 
 .customers {
@@ -777,6 +778,7 @@ textarea:focus {
 .customers__icn:hover {
     fill: var(--color-primario);
 }
+
 
 /* Footer seccion final */
 
@@ -856,6 +858,8 @@ textarea:focus {
     color: var(--color-primario);
 }
 
+
+
 .TimeOut .TimeOut__ubi {
     display: flex;
     align-items: center;
@@ -892,17 +896,15 @@ textarea:focus {
     padding: 0;
 }
 
-.TimeOut__social-icons li {
-    margin-right: -20px;
-}
-
 .TimeOut__back_itemFooter {
-    border-radius: 50%;
     display: flex;
-    height: 44px;
-    padding: 5px;
-    width: 44px;
+    align-content: center;
     background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+    margin: 5px;
+    margin-right: -20px;
 }
 
 .TimeOut__back_itemFooter:hover {
@@ -910,16 +912,35 @@ textarea:focus {
 }
 
 .TimeOut__icono_item {
-    display: inline-block;
-    position: relative;
-    left: 5px;
-    width: 24px;
-    height: 24px;
+    display: flex;
+    width: 22px;
+    height: 22px;
+    align-items: center;
     stroke-width: 0;
     stroke: currentColor;
-    fill: #ffffff;
-    align-self: center;
+    fill: var(--color-sexto);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .TimeOut__modal {
     display: flex;

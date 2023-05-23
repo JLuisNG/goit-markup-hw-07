@@ -653,11 +653,7 @@ textarea:focus {
 }
 
 .Team .team__social {
-    border-radius: 100%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+
     margin-top: 25px;
     margin-left: 5px;
 }

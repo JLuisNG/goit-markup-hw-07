@@ -687,7 +687,7 @@ textarea:focus {
     border-radius: 100%;
     fill: var(--color-sexto);
     background-color: #188CE8;
-    transform: scale(1.5);
+
 }
 
 .icono-item {

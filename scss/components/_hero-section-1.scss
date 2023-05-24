@@ -170,4 +170,59 @@
             fill: var(--color-primario);
             color: var(--color-primario);
         }
+
+
+
+                .Hero__Portafolio-2 {
+                    display: flex;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 1.14px;
+                    letter-spacing: 16%;
+                    color: var(--color-primario);
+                    position: relative;
+                }
+        
+                .Hero__Portafolio-2:hover {
+                    color: var(--color-primario);
+                }
+        
+                .Hero__Portafolio-2:focus {
+                    color: var(--color-primario);
+                }
+        
+                .Hero__Portafolio-2::after {
+                    content: "";
+                    position: absolute;
+                    top: 33px;
+                    left: 0;
+                    width: 100%;
+                    height: 4px;
+                    background-color: var(--color-primario);
+                    border-radius: 5px;
+                }
+        
+                .Hero__Estudio-2,
+                .Contactos-2 {
+                    display: flex;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 1.14px;
+                    letter-spacing: 16%;
+                    color: var(--color-secundario);
+                }
+        
+                .Hero__Estudio-2:hover,
+                .Hero__Portafolio-2:hover,
+                .Contactos-2:hover {
+                    color: var(--color-primario);
+                }
+        
+                .Hero__Estudio-2:focus,
+                .Hero__Portafolio-2:focus,
+                .Contactos-2:focus {
+                    color: var(--color-primario);
+                }
 }

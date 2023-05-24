@@ -61,7 +61,6 @@
             position: relative;
             top: -2px;
             left: 0;
-    
         }
     
         .modal__close:hover,
@@ -139,7 +138,9 @@
             border-radius: 4px;
             margin-top: 10px;
             padding-left: 45px;
+            
         }
+
     
         .modal__input:hover,
         .modal__input:focus {
@@ -284,4 +285,5 @@
             bottom: 105px;
             left: 25%;
         }
+
 }

@@ -1,18 +1,18 @@
-.Beneficios .beneficios__container {
+.Benefits .Benefits__container {
     width: 1200px;
     margin: auto;
     display: flex;
     margin-top: 100px;
     flex-wrap: wrap;
 
-    .beneficios__txt {
+    .Benefits__txt {
             width: 1200px;
             margin: auto;
             display: flex;
             margin-top: 10px;
         }
     
-        .beneficios__txt_Firts {
+        .Benefits__txt_Firts {
             width: 270px;
             vertical-align: top;
             margin-right: 30px;
@@ -20,7 +20,7 @@
             margin-top: 15px;
         }
     
-        .beneficios__txt_Firts h2 {
+        .Benefits__txt_Firts h2 {
             font-family: 'Roboto', sans-serif;
             font-weight: 400px;
             font-size: 14px;
@@ -28,7 +28,7 @@
             letter-spacing: 3%;
         }
     
-        .beneficios__txt_Firts p {
+        .Benefits__txt_Firts p {
             font-family: 'Roboto', sans-serif;
             font-weight: 400px;
             font-size: 14px;
@@ -37,7 +37,7 @@
             color: var(--color-terciario);
         }
     
-        .beneficios__svg-container {
+        .Benefits__svg-container {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -50,7 +50,7 @@
             margin-top: 15px;
         }
     
-        .beneficios__svg-container:hover {
+        .Benefits__svg-container:hover {
             border: 1px solid var(--color-primario);
         }
 }

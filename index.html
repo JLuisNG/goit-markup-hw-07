@@ -7,8 +7,6 @@
         <title>Luis Nava's project.💤</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- APARTIR DE AQUI VAN LOS LINKS DE ENLACE  -->
-
         <link rel="icon" type="image/png" href="./images/Logo.jpg" />
         <link rel="stylesheet" href="./scss/main.scss" />
         <link rel="stylesheet" href="./css/style.css" />
@@ -22,199 +20,108 @@
     </head>
 
     <body>
-        <header>
-        <!-- LINK WEBSTUDIO -->
 
-        <!-- <section class="Hero">
-            <div class="Hero__Header-Container">
-            <nav class="Hero__Nav-container">
-                <a class="Hero__Web-Studio" href="#"> WebStudio </a>
-
-                <ul class="Hero__list-nav">
-                <li>
-                    <a
-                    class="Hero__Estudio"
-                    href="./index.html"
-                    rel="noreferrer noopener"
-                    >
-                    Estudio
-                    </a>
-                </li>
-
-                <li>
-                    <a
-                    class="Hero__Portafolio"
-                    href="./Portafolio.html"
-                    rel="noreferrer noopener"
-                    >
-                    Portafolio
-                    </a>
-                </li>
-
-
-                <li>
-                    <a class="Hero__Contactos" href="¿?" rel="noreferrer noopener">
-                    Contactos
-                    </a>
-                </li>
-                </ul>
-            </nav>
-
-            <ul class="Hero__contacts-nav">
-                <li class="Hero__mail-icon">
-                <div class="Hero__mail-container">
-                    <a class="Hero__mail1" href="mailto:Info@devstudo.com">
-                    <svg class="Hero__icon">
-                        <use
-                        href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#correo"
-                        ></use>
-                    </svg>
-                    Info@devstudo.com
-                    </a>
-                </div>
-                </li>
-                <li class="Hero__telf-icon">
-                <div class="Hero__telf-container">
-                    <a class="Hero__telf" href="tel:+525555296000">
-                    <svg class="Hero__icon">
-                        <use
-                        href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#telefono"
-                        ></use>
-                    </svg>
-                    +52 55 5529 6000
-                    </a>
-                </div>
-                </li>
-            </ul>
-            </div>
-        </section> -->
-
-        </header>
 
         <main>
-        <!-- Solutions-->
 
         <section class="Solutions">
-            <div class="Solutions__container">
-            <h1 class="Solutions__title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-
-            <!-- BTN -->
-
-            <button class="solutions__button abrir" data-modal-open>
-                Solicite nuestro servicio
-            </button>
-
-            <!-- <div class="backdrop is-hidden" data-modal>
-                <div class="modal">
-                <button class="modal__close" data-modal-close>
-                    <span>&times;</span>
+                <div class="Solutions__container">
+                <h1 class="Solutions__title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+                <button class="solutions__button abrir" data-modal-open>
+                    Solicite nuestro servicio
                 </button>
-
-                <form name="nick-form" autocomplete="off" action="">
-                    <div class="modal__header">
-                    <h5>Deje sus datos, nos contactaremos con usted</h5>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                    <button class="modal__close" data-modal-close>
+                        <span>&times;</span>
+                    </button>
+                    <form name="nick-form" autocomplete="off" action="">
+                        <div class="modal__header">
+                        <h5>Deje sus datos, nos contactaremos con usted</h5>
+                        </div>
+                        <div class="modal__item_Firts">
+                        <label class="modal__label" for="name">Nombre</label>
+                        <input
+                            class="modal__input"
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                            pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+                        />
+                        <svg class="modal__icon_People">
+                            <use
+                            href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#people-modal"
+                            ></use>
+                        </svg>
+                        </div>
+                        <div class="modal__item_Second">
+                        <label class="modal__label" for="telf">Telefono</label>
+                        <input
+                            class="modal__input"
+                            type="tel"
+                            id="telf"
+                            name="telf"
+                            required
+                        />
+                        <svg class="modal__icon_Telf">
+                            <use
+                            href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#contact-modal"
+                            ></use>
+                        </svg>
+                        </div>
+                        <div class="modal__item_Third">
+                        <label class="modal__label" for="E-mail">E-mail</label>
+                        <input
+                            class="modal__input"
+                            type="email"
+                            id="E-mail"
+                            name="email"
+                            required
+                        />
+                        <svg class="modal__icon_Mail">
+                            <use
+                            href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#mail-modal"
+                            ></use>
+                        </svg>
+                        </div>
+                        <div class="modal__item_Forth">
+                        <label class="modal__label_Coment" for="Coment"
+                            >Comentarios</label
+                        >
+                        <textarea
+                            class="modal__textarea"
+                            id="Coment"
+                            cols="30"
+                            rows="10"
+                            placeholder="Introduzca el texto"
+                            name="Coment"
+                        >
+                        </textarea>
+                        </div>
+                        <div class="modal__item_Fifth">
+                        <label class="modal__Check_Coment" for="Terminos">
+                            Estoy de acuerdo con el boletín informativo y acepto los
+                            Términos y Condiciones
+                        </label>
+                        <input
+                            class="modal__checkbox"
+                            type="checkbox"
+                            id="Terminos"
+                            name="terminos"
+                            required
+                        />
+                        </div>
+                        <div class="modal__item_Sixth">
+                        <input type="submit" value="Enviar" />
+                        </div>
+                    </form>
                     </div>
-
-                    <!-- Nombre -->
-
-                    <!-- <div class="modal__item_Firts">
-                    <label class="modal__label" for="name">Nombre</label>
-
-                    <input
-                        class="modal__input"
-                        type="text"
-                        id="name"
-                        name="name"
-                        required
-                        pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
-                    />
-
-                    <svg class="modal__icon_People">
-                        <use
-                        href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#people-modal"
-                        ></use>
-                    </svg>
-                    </div>
-
-                    <div class="modal__item_Second">
-                    <label class="modal__label" for="telf">Telefono</label>
-
-                    <input
-                        class="modal__input"
-                        type="tel"
-                        id="telf"
-                        name="telf"
-                        required
-                    />
-
-                    <svg class="modal__icon_Telf">
-                        <use
-                        href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#contact-modal"
-                        ></use>
-                    </svg>
-                    </div>
-
-                    <div class="modal__item_Third">
-                    <label class="modal__label" for="E-mail">E-mail</label>
-                    <input
-                        class="modal__input"
-                        type="email"
-                        id="E-mail"
-                        name="email"
-                        required
-                    />
-
-                    <svg class="modal__icon_Mail">
-                        <use
-                        href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#mail-modal"
-                        ></use>
-                    </svg>
-                    </div>
-
-
-                    <div class="modal__item_Forth">
-                    <label class="modal__label_Coment" for="Coment"
-                        >Comentarios</label
-                    >
-
-                    <textarea
-                        class="modal__textarea"
-                        id="Coment"
-                        cols="30"
-                        rows="10"
-                        placeholder="Introduzca el texto"
-                        name="Coment"
-                    >
-                    </textarea>
-                    </div>
-
-                    <div class="modal__item_Fifth">
-                    <label class="modal__Check_Coment" for="Terminos">
-                        Estoy de acuerdo con el boletín informativo y acepto los
-                        Términos y Condiciones
-                    </label>
-
-                    <input
-                        class="modal__checkbox"
-                        type="checkbox"
-                        id="Terminos"
-                        name="terminos"
-                        required
-                    />
-                    </div>
-
-                    <div class="modal__item_Sixth">
-                    <input type="submit" value="Enviar" />
-                    </div>
-                </form>
-                </div> -->
-            </div> -->
-            </div>
+                </div>
+                </div>
         </section>
 
-        <!-- Benefits -->
-
-        <!-- <section class="Benefits">
+        <section class="Benefits">
             <div class="Benefits__container">
 
             <ul>
@@ -312,11 +219,9 @@
                 </ul>
             </div>
             </div>
-        </section> -->
+        </section> 
 
-        <!-- Dedication -->
-
-        <!-- <section class="Dedication">
+        <section class="Dedication">
             <div class="container">
 
             <ul>
@@ -361,11 +266,9 @@
                 </li>
             </ul>
             </div>
-        </section> -->
+        </section> 
 
-        <!-- TEAM -->
-
-        <!-- <section class="Team">
+        <section class="Team">
             <div class="container">
             <ul class="team__list">
 
@@ -613,11 +516,9 @@
                 </li>
             </ul>
             </div>
-        </section> -->
+        </section> 
 
-        <!-- customers -->
-
-        <!-- <section class="customers">
+        <section class="customers">
             <div class="customers__container">
             <div class="customers__texto">
                 <ul>
@@ -689,15 +590,13 @@
                 </ul>
             </div>
             </div>
-        </section> -->
+        </section> 
 
         </main>
 
         <footer>
 
-        <!-- TimeOut -->
-
-        <!-- <section class="TimeOut">
+        <section class="TimeOut">
             <div class="TimeOut__container">
             <div>
                 <ul>
@@ -809,7 +708,7 @@
                 </svg>
             </form>
             </div>
-        </section> -->
+        </section> 
 
         </footer>
 

@@ -226,3 +226,26 @@
                     color: var(--color-primario);
                 }
 }
+
+@media screen and (max-width: 780px) {
+
+    .Hero__Web-Studio{
+        position: relative;
+        left: 15px;
+    }
+
+    .Hero__contacts-nav {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .Hero__telf{
+        position: relative;
+        right: 10px;
+    }
+
+    
+
+
+}

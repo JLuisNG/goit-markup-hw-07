@@ -45,3 +45,11 @@
             color: var(--color-sexto);
         }
 }
+
+@media screen and (max-width: 780px) {
+
+    .Dedication{
+        display: none;
+    }
+
+}

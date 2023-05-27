@@ -54,3 +54,28 @@
             border: 1px solid var(--color-primario);
         }
 }
+
+@media screen and (max-width: 780px) {
+
+    .Benefits .Benefits__container .Benefits__svg-container {
+        width: 570px;
+    }
+
+    .Benefits .Benefits__container .Benefits__txt_Firts {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 570px;
+    }
+
+    .Benefits .Benefits__container .Benefits__txt_Firts h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Benefits .Benefits__container .Benefits__txt_Firts p {
+        display: flex;
+        justify-content: center;
+    }
+
+}

@@ -57,6 +57,11 @@
 
 @media screen and (max-width: 780px) {
 
+    .Benefits .Benefits__container{
+        position: relative;
+        left: 20px;
+    }
+
     .Benefits .Benefits__container .Benefits__svg-container {
         width: 570px;
     }

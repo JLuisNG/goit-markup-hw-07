@@ -7,7 +7,8 @@
             text-align: center;
             margin-top: 80px;
             background-color: var(--color-cuaternario);
-            width: 1600px;
+            width: 100%;
+            height: 600px;
         }
     
         .team__title_ourT h2 {
@@ -18,21 +19,19 @@
             line-height: 42px;
             text-align: center;
             letter-spacing: 0.03em;
-            padding-top: 20px;
             color: var(--color-secundario);
             margin-top: 20px;
         }
     
         .team__item {
-            display: flex;
             border: 0.1px solid #ccc;
-            margin: 11px;
+            margin: 12px;
             box-shadow: 0px 1px 3px;
             margin-top: 40px;
         }
     
         .team__item img {
-            margin-bottom: 5px;
+            margin-bottom: 20px;
         }
     
         .team__name {
@@ -113,3 +112,49 @@
             align-items: center;
         }
 }
+
+@media screen and (max-width: 780px) {
+
+        .Team {
+            width: 1200px;
+            justify-content: flex-start;
+        }
+
+        .Team .container{
+            height: 1285px;
+        }
+
+        .team__item {
+                display: flex;
+                border: 0.1px solid #ccc;
+                margin: 12px;
+                box-shadow: 0px 1px 3px;
+                
+                flex-direction: column;
+                align-items: center;
+                margin-top: 0;
+
+                width: 354px;
+                height: 536px;
+        }
+        
+        .team__item img {
+                width: 354px;
+                height: 350px;
+                margin-bottom: 20px;
+        }
+        
+        .team__social {
+        
+        margin-top: 25px;
+            margin-left: 0;
+        }
+        
+        .team__social-item {
+
+                margin: 5px;
+        }
+
+
+}
+

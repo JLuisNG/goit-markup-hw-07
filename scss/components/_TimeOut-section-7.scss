@@ -241,7 +241,7 @@
 
 }
 
-@media (max-width: 720px) {
+@media (max-width: 780px) {
 
     .TimeOut{
         margin-top: 100px;
@@ -250,62 +250,26 @@
     }
 
     .TimeOut__container {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-    }
-
-    .TimeOut__direccion,
-    .TimeOut__email,
-    .TimeOut__telefono {
-        margin-top: 0;
-    }
-
-    .TimeOut__ubi {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 30px;
-    }
-
-    .TimeOut__encuentranosEn {
-        margin-right: 0;
-        margin-top: 10px;
-        text-align: center;
-    }
-
-    .TimeOut__svg-container-footer {
+        position: relative;
+        left: 100px;
         margin-top: 20px;
-        margin-left: 0;
-        display: flex;
-        justify-content: center;
-    }
-
-    .TimeOut__modal {
-        flex-direction: column;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        top: unset;
-        margin-top: 30px;
-        margin-left: 0;
-    }
-
-    .TimeOut__modal_label {
         text-align: center;
-        right: auto;
     }
 
-    .TimeOut__modal_ForInput,
-    .TimeOut__submit {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
+    .TimeOut__ubi{
+        position: relative;
+        left: 450px;
+        margin-bottom: 250px;
     }
 
-    .TimeOut__modal_SubSvg {
-        margin-left: auto;
-        margin-right: auto;
-        bottom: unset;
-        top: 20px;
+    .TimeOut__modal{
+        position: relative;
+        margin-right: 500px;
+        margin-top: -40px;
     }
+
+    .TimeOut__modal_label{
+        text-align: center;
+    }
+
 }

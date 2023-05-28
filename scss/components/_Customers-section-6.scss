@@ -56,17 +56,36 @@
     .customers__icn:hover {
         fill: var(--color-primario);
     }
+}
 
 @media (max-width: 720px) {
-        .customers__container {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
 
-        .customers__fondo_Svg {
-            flex-basis: calc(33.33% - 20px);
-            margin-left: 0;
-            margin-top: 30px;
-        }
+    .customers__container {
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
+
+    .customers .customers__fondo_Svg {
+        width: 273px;
+        display: flex;
+        justify-content: center;
     }
+
+    .customers svg {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 45px;
+    }
+
+    .customers__container_Svg {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .customers__fondo_Svg {
+        flex-basis: calc(50% - 20px);
+        margin-bottom: 30px;
+    }
+
+}

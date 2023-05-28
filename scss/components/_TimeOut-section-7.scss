@@ -243,9 +243,9 @@
 
 @media (max-width: 780px) {
 
-    .TimeOut{
+    .TimeOut {
         margin-top: 100px;
-        width: 1200px;
+        width: calc(1300px - 100px);
         height: auto;
     }
 
@@ -256,31 +256,29 @@
         text-align: center;
     }
 
-    .TimeOut__ubi{
+    .TimeOut__ubi {
         position: relative;
         left: 450px;
         margin-bottom: 250px;
     }
 
-    .TimeOut__modal{
+    .TimeOut__modal {
         position: relative;
         margin-right: 500px;
         margin-top: -40px;
     }
 
-    .TimeOut__modal_label{
+    .TimeOut__modal_label {
         text-align: center;
     }
 
-    .TimeOut .TimeOut__submit{
+    .TimeOut .TimeOut__submit {
         position: relative;
         margin-top: 80px;
-        left: -20px;
-    }
+        left: -20px;}
 
-    .TimeOut .TimeOut__modal_SubSvg{
+    .TimeOut .TimeOut__modal_SubSvg {
         position: relative;
         left: 130px;
     }
-
 }

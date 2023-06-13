@@ -1,284 +1,253 @@
 .TimeOut {
-    background-color: var(--color-fondo-solutions);
-    width: 100%;
-    max-width: 1600px;
-    height: 252px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 0 auto;
-    border-top: 1px solid var(--color-terciario);
+    background-color: var(--color-fondo-solutions);
+    padding: 0px 0px;
+    margin: 0 auto;
 
-    .TimeOut__container {
-            position: relative;
-            top: 50px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-left: -950px;
-            width: 100%;
-        }
+.TimeOut__container {
+        width: 1200px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+}
 
-    .TimeOut__web-studio {
-            font-family: 'Raleway', sans-serif;
-            font-weight: 700;
-            font-size: 26px;
-            letter-spacing: 3%;
-            text-align: center;
-            text-decoration: none;
-            color: var(--color-primario);
-            position: relative;
-            bottom: 10px;
-    }
+.footer-webstudio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 3%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-primario);
+}
 
-    ul li {
-            display: flex;
-            align-items: center;
-            margin-left: 35px;
-    }
+.TimeOut__address {
+    color: var(--color-sexto);
+    line-height: 1.7;
+    font-style: normal;
+    width: 232px;
+}
 
-        .TimeOut__direccion p {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 24px;
-            letter-spacing: 0.03em;
-            color: var(--color-sexto);
-            width: 200px;
-        }
-    
-        .TimeOut__email a,
-        .TimeOut__telefono a {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 24px;
-            letter-spacing: 0.03em;
-            color: rgba(255, 255, 255, 0.6);
-            width: 200px;
-        }
-    
-        .TimeOut__direccion p:hover,
-        .TimeOut__email a:hover,
-        .TimeOut__telefono a:hover {
-            color: var(--color-primario);
-        }
-    
-        .TimeOut__direccion p:focus,
-        .TimeOut__email a:focus,
-        .TimeOut__telefono a:focus {
-            color: var(--color-primario);
-        }
-    
-        .TimeOut__ubi {
-            display: flex;
-            align-items: center;
-            position: relative;
-            top: 130px;
-        }
-    
-        .TimeOut__encuentranosEn {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: var(--color-sexto);
-            float: right;
-            margin-right: 380px;
-            margin-top: -195px;
-        }
-    
-        .TimeOut__svg-container-footer {
-            width: 306px;
-            height: 80px;
-            margin-top: -160px;
-            margin-left: -70px;
-            border-radius: 100%;
-    
-        }
-    
-        .TimeOut__back_itemFooter {
-            width: 44px;
-            height: 44px;
-        }
-    
-        .TimeOut__back_itemFooter a {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 100%;
-            padding: 5px;
-            border-radius: 100%;
-            background: rgba(255, 255, 255, 0.1);
-            outline: none;
-        }
-    
-        .TimeOut__back_itemFooter:hover {
-            background-color: var(--color-primario);
-            border-radius: 100%;
-        }
-    
-        .TimeOut__social-icons {
-            list-style: none;
-            display: flex;
-        }
-    
-        .TimeOut__social-icons li {
-            margin-right: -20px;
-        }
-    
-        .TimeOut__icono_item {
-            display: inline-block;
-            width: 22px;
-            height: 22px;
-            stroke-width: 0;
-            stroke: currentColor;
-            fill: #ffffff;
-            align-self: center;
-        }
-    
-        .TimeOut__back_itemFooter a:focus {
-    
-            display: flex;
-            width: 100%;
-            height: 100%;
-            border-radius: 100%;
-            background-color: #188CE8;
-            outline: none;
-    
-        }
-    
-        .TimeOut__modal {
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            bottom: 100px;
-            left: 300px;
-            top: -60px;
-        }
-    
-        .TimeOut__modal_label {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: var(--color-sexto);
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            right: 100px;
-        }
-    
-        .TimeOut__modal_ForInput {
-            width: 358px;
-            height: 50px;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-            border-radius: 4px;
-            margin-top: 25px;
-            padding-left: 10px;
-            background-color: #ffffff00;
-            position: relative;
-            right: 100px;
-        }
-    
-        .TimeOut__modal_ForInput::placeholder {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 20px;
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.03em;
-            color: rgba(255, 255, 255, 0.6);
-        }
-    
-        .TimeOut__submit {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 30px;
-            letter-spacing: 0.06em;
-            color: #FFFFFF;
-            display: flex;
-            justify-content: center;
-            width: 200px;
-            height: 50px;
-            color: #FFFFFF;
-            background: var(--color-primario);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-            border-radius: 4px;
-            border: none;
-            position: relative;
-            bottom: 50px;
-            left: 280px;
-            padding-right: 30px;
-        }
-    
-        .TimeOut__modal_SubSvg {
-            width: 30px;
-            height: 30px;
-            position: relative;
-            bottom: 85px;
-            left: 420px;
-        }
-    
-        .TimeOut__modal_ForInput:focus {
-            color: var(--color-primario);
-        }
+.TimeOut__contact {
+    color: var(--color-sexto);
+    line-height: 1.7;
+    opacity: 60%;
+}
+
+.TimeOut__contact:hover,
+.TimeOut__contact:focus {
+    color: var(--color-primario);
+    line-height: 1.7;
+    opacity: 60%;
+}
+
+.find-us__text-element {
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--color-sexto);
+    margin: 0px 0px;
+}
+
+.TimeOut__social-container {
+    width: 206px;
+    height: 44px;
+    display: flex;
+    gap: 10px;
+}
+
+.TimeOut__social-media {
+    width: 44px;
+    height: 44px;
+    fill: var(--color-sexto);
+    align-items: left;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    flex-basis: calc((100% - 30px) / 4);
+}
+
+.TimeOut__social-media:hover,
+.TimeOut__social-media:focus {
+    background-color: var(--color-primario);
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.TimeOut__subscription {
+    display: flex;
+    margin: 72px 0px 0px 93px;
+    width: 575px;
+    height: 86px;
+}
+
+.subscription__text {
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--color-sexto);
+    display: block;
+}
+
+.subscription__email-box {
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    background-color: rgba(255, 255, 255, 0);
+    margin: 18px 12px 0px 0px;
+    color: var(--color-sexto);
+}
+
+.subscription-submit {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: var(--color-primario);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--color-sexto);
+    border: none;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.subscription__submit-logo {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 515px;
+    bottom: 35px;
+}
 
 }
 
-@media (max-width: 780px) {
+.TimeOut__generalinfo {
+    margin: 60px 70px 47px 0px;
+    padding: 0px 0px;
+    width: 250px;
+    line-height: 1.7;
+}
 
-    .TimeOut {
-        margin-top: 100px;
-        width: calc(1300px - 100px);
-        height: auto;
+.TimeOut__find-us {
+    display: flex;
+    flex-direction: column;
+    width: 206px;
+    margin: 72px 0px 0px 0px;
+    gap: 20px;
+}
+
+@include screen-480{
+
+    .TimeOut{
+        width: 100%;
     }
 
-    .TimeOut__container {
-        position: relative;
-        left: 100px;
-        margin-top: 20px;
-        text-align: center;
+    .TimeOut .TimeOut__container{
+        width: 480px;
+        height: 605px;
     }
 
-    .TimeOut__ubi {
-        position: relative;
-        left: 450px;
-        margin-bottom: 250px;
-    }
-
-    .TimeOut__modal {
-        position: relative;
-        margin-right: 500px;
-        margin-top: -40px;
-    }
-
-    .TimeOut__modal_label {
-        text-align: center;
-    }
-
-    .TimeOut .TimeOut__submit {
-        position: relative;
-        margin-top: 80px;
-        left: -20px;}
-
-    .TimeOut .TimeOut__modal_SubSvg {
+    .TimeOut__generalinfo {
         position: relative;
         left: 130px;
+        text-align: center;
     }
+
+    .TimeOut__find-us {
+        width: 206px;
+        margin: 72px 0px 0px 0px;
+        gap: 20px;
+        display: flex;
+        position: relative;
+        top: 200px;
+        left: -140px;
+    }
+
+    .TimeOut .find-us__text-element{
+        position: relative;
+        left: 20px;
+    }
+
+    .TimeOut__subscription {
+        position: relative;
+        top: 325px;
+        left: -450px;
+    }
+
+    .TimeOut .subscription__text{
+        position: relative;
+        left: -50px;
+    }
+
+    .TimeOut .subscription__email-box {
+        width: 400px;
+        position: relative;
+        left: -100px;
+    }
+
+    .TimeOut .subscription-submit {
+        width: 200px;
+        position: relative;
+        top: 20px;
+        left: 5px;
+    }
+
+    .TimeOut .subscription__submit-logo {
+        position: relative;
+        top: 33px;
+        left: -45px;
+    }
+}
+
+@include screen-768 {
+
+    .TimeOut .TimeOut__container{
+        width: 768px;
+        height: 500px;
+    }
+
+    .TimeOut__generalinfo {
+        text-align: center;
+    }
+
+    .TimeOut__find-us {
+        width: 206px;
+        margin: 72px 0px 0px 0px;
+        gap: 20px;
+        display: flex;
+        position: relative;
+        left: 200px;
+    }
+
+    .TimeOut__subscription {
+
+        position: relative;
+        top: 200px;
+        left: -350px;
+    }
+
+    .TimeOut .subscription__email-box {
+        width: 550px;
+        position: relative;
+        left: -120px;
+    }
+
+    .TimeOut .subscription-submit {
+        width: 200px;
+        position: relative;
+        top: 20px;
+        left: 50px;
+    }
+
+    .TimeOut .subscription__submit-logo {
+        position: relative;
+        top: 35px;
+        left: -5px;
+    }
+
 }

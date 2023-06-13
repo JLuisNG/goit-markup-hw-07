@@ -10,39 +10,39 @@
             margin: auto;
             display: flex;
             margin-top: 10px;
-        }
+    }
 
     .Benefits .Benefits__container ul {
         flex-basis: calc(50% - 30px);
         margin-bottom: 30px;
-        }
+    }
     
-        .Benefits__txt_Firts {
+    .Benefits__txt_Firts {
             width: 270px;
             vertical-align: top;
             margin-right: 30px;
             margin-bottom: 30px;
             margin-top: 15px;
-        }
+    }
     
-        .Benefits__txt_Firts h2 {
+    .Benefits__txt_Firts h2 {
             font-family: 'Roboto', sans-serif;
             font-weight: 400px;
             font-size: 14px;
             line-height: 24px;
             letter-spacing: 3%;
-        }
+    }
     
-        .Benefits__txt_Firts p {
+    .Benefits__txt_Firts p {
             font-family: 'Roboto', sans-serif;
             font-weight: 400px;
             font-size: 14px;
             line-height: 24px;
             letter-spacing: 3%;
             color: var(--color-terciario);
-        }
+    }
     
-        .Benefits__svg-container {
+    .Benefits__svg-container {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -53,40 +53,55 @@
             margin-right: 30px;
             margin-bottom: 30px;
             margin-top: 15px;
+    }
+}
+
+@include screen-480{
+
+    .Benefits .Benefits__container {
+            width: 100%;
+            padding: 0 20px;
+            justify-content: center;
+            flex-wrap: wrap;
         }
     
-        .Benefits__svg-container:hover {
-            border: 1px solid var(--color-primario);
+        .Benefits .Benefits__container .Benefits__txt_Firts {
+            text-align: left;
+            width: 380px;
+        }
+    
+        .Benefits .Benefits__container .Benefits__svg-container {
+            width: 95%;
+            height: 120px;
+        }
+    
+        .Benefits svg {
+            position: relative;
+            left: 25px;
         }
 }
 
+@include screen-768 {
 
-@media screen and (max-width: 780px) {
-
-    .Benefits .Benefits__container {
+    .Benefits .Benefits__container{
+        width: 100%;
         padding: 0 20px;
         justify-content: center;
         flex-wrap: wrap;
     }
 
     .Benefits .Benefits__container .Benefits__txt_Firts {
-        margin-right: 0;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        text-align: left;
+        flex-basis: calc((100% - 30px) / 2);
     }
 
     .Benefits .Benefits__container .Benefits__svg-container {
-        width: 500px;
+        width: 95%;
+        height: 120px;
     }
 
-    .Benefits .Benefits__container .Benefits__txt_Firts {
-        width: 500px;
+    .Benefits svg{
+        position: relative;
+        left: 25px;
     }
-
-    .Benefits .Benefits__container {
-        flex-wrap: wrap;
-    }
-
 }
-

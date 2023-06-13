@@ -46,10 +46,17 @@
         }
 }
 
-@media screen and (max-width: 780px) {
+@include screen-480 {
 
     .Dedication{
         display: none;
     }
 
+}
+
+@include screen-768 {
+
+    .Dedication {
+        display: none;
+    }
 }

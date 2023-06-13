@@ -6,7 +6,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Luis Nava's project.💤</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
         <link rel="icon" type="image/png" href="./images/Logo.jpg" />
         <link rel="stylesheet" href="./scss/main.scss" />
         <link rel="stylesheet" href="./css/style.css" />
@@ -24,49 +23,29 @@
         <header>
 
         <section class="Hero">
+    
             <div class="Hero__Header-Container">
             <nav class="Hero__Nav-container">
-                <a class="Hero__Web-Studio" href="#"> WebStudio </a>
-
+                <a class="Hero__Web-Studio" href="#">Web<span class="Hero__SSP">Studio</span>
+                </a>
                 <ul class="Hero__list-nav">
                 <li>
-                    <a
-                    class="Hero__Estudio"
-                    href="./index.html"
-                    rel="noreferrer noopener"
-                    >
-                    Estudio
-                    </a>
+                    <a class="Hero__Estudio" href="./index.html" rel="noreferrer noopener">Estudio</a>
                 </li>
-
                 <li>
-                    <a
-                    class="Hero__Portafolio"
-                    href="./Portafolio.html"
-                    rel="noreferrer noopener"
-                    >
-                    Portafolio
-                    </a>
+                    <a class="Hero__Portafolio" href="./Portafolio.html" rel="noreferrer noopener">Portafolio</a>
                 </li>
-
-                <!-- LINK CONTACTOS -->
-
                 <li>
-                    <a class="Hero__Contactos" href="¿?" rel="noreferrer noopener">
-                    Contactos
-                    </a>
+                    <a class="Hero__Contactos" href="¿?" rel="noreferrer noopener">Contactos</a>
                 </li>
                 </ul>
             </nav>
-
             <ul class="Hero__contacts-nav">
                 <li class="Hero__mail-icon">
                 <div class="Hero__mail-container">
                     <a class="Hero__mail1" href="mailto:Info@devstudo.com">
                     <svg class="Hero__icon">
-                        <use
-                        href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#correo"
-                        ></use>
+                        <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#correo"></use>
                     </svg>
                     Info@devstudo.com
                     </a>
@@ -76,20 +55,79 @@
                 <div class="Hero__telf-container">
                     <a class="Hero__telf" href="tel:+525555296000">
                     <svg class="Hero__icon">
-                        <use
-                        href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#telefono"
-                        ></use>
+                        <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#telefono"></use>
                     </svg>
                     +52 55 5529 6000
                     </a>
                 </div>
                 </li>
             </ul>
+            <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            >
+            <svg class="menu-open">
+                <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#Menu"></use>
+            </svg>
+            </button>
+
+
+            </div>
+
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <button class="menu-toggle menu-toggle--absolute js-close-menu">
+                    <span>&times;</span>
+                </button>
+
+                <ul class="menu-mobile">
+                <li class="menu-mobile__item">
+                    <a class="Hero__Estudio" href="./index.html">Estudio</a>
+                </li>
+
+                <li class="menu-mobile__item">
+                    <a class="Hero__Portafolio" href="./Portafolio.html">Portafolio</a>
+                </li>
+
+                <li class="menu-mobile__item">
+                    <a class="Hero__Contactos" href="">Contacto</a>
+                </li>
+                </ul>
+
+                <ul class="contact-mobile">
+                <li class="contact-mobile__item">
+                    <a
+                    class="contact-mobile__link contact-mobile__link--size"
+                    href="tel:+52 55 5529 6000"
+                    >+52 55 5529 6000</a
+                    >
+                </li>
+                <li class="contact-mobile__item">
+                    <a class="contact-mobile__link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                    >
+                </li>
+                </ul>
+
+                <ul class="social-mobile">
+                <li class="social-mobile__item">
+                    <a class="social-mobile__link" href="">Instagram</a>
+                </li>
+                <li class="social-mobile__item">
+                    <a class="social-mobile__link" href="">Twitter</a>
+                </li>
+                <li class="social-mobile__item">
+                    <a class="social-mobile__link" href="">Facebook</a>
+                </li>
+                <li class="social-mobile__item">
+                    <a class="social-mobile__link" href="">Linkedin</a>
+                </li>
+                </ul>
             </div>
 
         </section>
 
-        </header>
+        </header> 
 
         <main>
 
@@ -287,7 +325,6 @@
             </ul>
 
             </div>
-            </div>
         </section>
 
         <section class="Dedication">
@@ -337,7 +374,7 @@
             </div>
         </section>
 
-        <!-- <section class="Team">
+        <section class="Team">
             <div class="container">
             <ul class="team__list">
 
@@ -578,20 +615,13 @@
             </ul>
 
             </div>
-        </section> -->
+        </section>
 
         <section class="customers">
-            <div class="customers__container">
-            <div class="customers__texto">
-                <ul>
-                <li class="customers__title">
-                    <h2>Clientes Regulares</h2>
-                </li>
-                </ul>
-            </div>
 
+            <h2 class="customers__title">Clientes Regulares</h2>
             <div class="customers__container_Svg">
-                <ul>
+                <ul class="customers__background-svg">
                 <li class="customers__fondo_Svg">
                     <svg class="customers__icn">
                     <use
@@ -599,9 +629,7 @@
                     ></use>
                     </svg>
                 </li>
-                </ul>
 
-                <ul>
                 <li class="customers__fondo_Svg">
                     <svg class="customers__icn">
                     <use
@@ -609,9 +637,7 @@
                     ></use>
                     </svg>
                 </li>
-                </ul>
 
-                <ul>
                 <li class="customers__fondo_Svg">
                     <svg class="customers__icn">
                     <use
@@ -619,9 +645,7 @@
                     ></use>
                     </svg>
                 </li>
-                </ul>
 
-                <ul>
                 <li class="customers__fondo_Svg">
                     <svg class="customers__icn">
                     <use
@@ -629,9 +653,7 @@
                     ></use>
                     </svg>
                 </li>
-                </ul>
 
-                <ul>
                 <li class="customers__fondo_Svg">
                     <svg class="customers__icn">
                     <use
@@ -639,9 +661,7 @@
                     ></use>
                     </svg>
                 </li>
-                </ul>
 
-                <ul>
                 <li class="customers__fondo_Svg">
                     <svg class="customers__icn">
                     <use
@@ -649,8 +669,8 @@
                     ></use>
                     </svg>
                 </li>
+
                 </ul>
-            </div>
             </div>
         </section>
 
@@ -660,121 +680,85 @@
 
         <section class="TimeOut">
             <div class="TimeOut__container">
-            <div>
-                <ul>
-
-                <li>
-                    <a class="TimeOut__web-studio" href="#">WebStudio </a>
-                </li>
-                </ul>
-            </div>
-
-            <div class="TimeOut__direccion">
-                <ul>
-                <li>
-                    <p>Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
-                </li>
-                </ul>
-            </div>
-
-            <div class="TimeOut__email">
-                <ul>
-                <li>
-                    <a href="mailto:info@example.com" id="correo"
-                    >info@example.com
-                    </a>
-                </li>
-                </ul>
-            </div>
-
-            <div class="TimeOut__telefono">
-                <ul>
-                <li>
-                    <a href="tel+525555296000" id="telefono">+52 55 5529 6000 </a>
-                </li>
-                </ul>
-            </div>
-            </div>
-
-            <section class="TimeOut__ubi">
-            <div>
-                <h4 class="TimeOut__encuentranosEn">Encuentranos en</h4>
-
-                <div class="TimeOut__svg-container-footer">
-                <ul class="TimeOut__social-icons">
-                    <li class="TimeOut__back_itemFooter">
-                    <a href="#">
-                        <svg class="TimeOut__icono_item">
-                        <use
-                            href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#instagram"
-                        ></use>
-                        </svg>
-                    </a>
-                    </li>
-
-                    <li class="TimeOut__back_itemFooter">
-                    <a href="#">
-                        <svg class="TimeOut__icono_item">
-                        <use
-                            href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#twitter"
-                        ></use>
-                        </svg>
-                    </a>
-                    </li>
-
-                    <li class="TimeOut__back_itemFooter">
-                    <a href="#">
-                        <svg class="TimeOut__icono_item">
-                        <use
-                            href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#facebook"
-                        ></use>
-                        </svg>
-                    </a>
-                    </li>
-
-                    <li class="TimeOut__back_itemFooter">
-                    <a href="#">
-                        <svg class="TimeOut__icono_item">
-                        <use
-                            href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#linkedin"
-                        ></use>
-                        </svg>
-                    </a>
-                    </li>
-                </ul>
-                </div>
-            </div>
-            </section>
-
-            <div class="TimeOut__modal">
-            <form name="nick-form-Footer" autocomplete="off" action="">
-                <label class="TimeOut__modal_label" for="E-mail-footer"
-                >SUSCRÍBASE al boletín informativo</label
+            <ul class="TimeOut__generalinfo">
+                <a class="footer-webstudio" id="main__logo--footer" href="#" target="_self"
+                >WebStudio</a
                 >
-
-                <input
-                class="TimeOut__modal_ForInput"
-                type="email"
-                id="E-mail-footer"
-                name="email"
-                placeholder="Correo electronico"
-                required
-                />
-
-                <input class="TimeOut__submit" type="submit" value="Suscríbase" />
-
-                <svg class="TimeOut__modal_SubSvg">
-                <use
-                    href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#check-sub"
-                ></use>
-                </svg>
-            </form>
+                <li>
+                <address class="TimeOut__address">
+                    Calz. Ticomán 500, Ciudad de México, CDMX, México
+                </address>
+                </li>
+                <li>
+                <a href="mailto:info@example.com" class="TimeOut__contact"
+                    >info@example.com</a
+                >
+                </li>
+                <li>
+                <a href="tel:+525555296000" class="TimeOut__contact"
+                    >+52 55 5529 6000</a
+                >
+                </li>
+            </ul>
+            <div class="TimeOut__find-us">
+                <ul class="TimeOut__find-us-text">
+                <li>
+                    <p class="find-us__text-element">ENCUENTRANOS EN</p>
+                </li>
+                </ul>
+                <ul class="TimeOut__social-container">
+                <li>
+                    <svg class="TimeOut__social-media">
+                    <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#instagram-2"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg class="TimeOut__social-media">
+                    <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#twitter-2"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg class="TimeOut__social-media">
+                    <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#facebook-2"></use>
+                    </svg>
+                </li>
+                <li>
+                    <svg class="TimeOut__social-media">
+                    <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#linkedin-2"></use>
+                    </svg>
+                </li>
+                </ul>
             </div>
-        </section> 
+            <div class="TimeOut__subscription">
+                <form name="form-sub" autocomplete="off" action="">
+                <label class="subscription__text" for="email-sub"
+                    >SUSCRÍBASE AL BOLETIN INFORMATIVO</label
+                >
+                <input
+                    class="subscription__email-box"
+                    type="email"
+                    name="email-sub"
+                    placeholder="Correo electronico"
+                    required
+                />
+                <input
+                    class="button subscription-submit"
+                    type="submit"
+                    value="Suscríbanse"
+                />
+                <svg class="subscription__submit-logo">
+                    <use href="./images/IMAGES-PAGE-1/svg-page/all-svg.svg#check-sub"></use>
+                </svg>
+                </form>
+            </div>
+            </div>
+        </section>
 
         </footer>
 
+        <script src="./js/Menu-Mobile.js"></script>
         <script src="./js/modal.js"></script>
+
     </body>
 
 </html>

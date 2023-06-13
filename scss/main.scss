@@ -2,6 +2,8 @@
 
 @import "./utils/variables";
 
+@import "./utils/mixins";
+
 @import "./components/hero-section-1";
 
 @import "./components/Solutions-section-2";
@@ -19,3 +21,5 @@
 @import "./components/Buttons-section-2P";
 
 @import "./components/Cards-section-3P";
+
+@import "./components/_Menu-Mobile";

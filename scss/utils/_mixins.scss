@@ -1,0 +1,17 @@
+@mixin screen-480 {
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin screen-768 {
+    @media only screen and (min-width: 768px) and (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin screen-1200 {
+    @media only screen and (min-width: 1200px) {
+        @content;
+    }
+}

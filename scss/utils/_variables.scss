@@ -10,6 +10,28 @@
     --color-blanco-second: #F5F4FA;
 }
 
+$main-font: "Roboto", sans-serif;
+$regular-weight: 400;
+$medium-weight: 500;
+$bold-weight: 700;
+$main-size: 14px;
+$secondary-size: 16px;
+$main-letter: 0.03em;
+$main-text-color: #212121;
+$secondary-text-color: #757575;
+$main-white-color: #ffffff;
+$black-logo: #000000;
+
+$accent-color: #2196f3;
+$accent-color-hover: #188ce8;
+
+$color-light-gray: #e5e5e5;
+$bg-black: #2f303a;
+$bg-gray: #f5f4fa;
+$border-gray: #ececec;
+$border-white: #eeeeee;
+$icon-color: #afb1b8;
+
 * {
     text-decoration: none;
     list-style: none;
@@ -22,12 +44,9 @@ body {
     padding: 0;
 }
 
-/* seccion header */
-
 header {
     margin: 0 auto;
     width: 1200px;
-    max-width: 1600px;
     border-bottom: 1px solid var(--color-cuaternario);
 }
 

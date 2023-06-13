@@ -1,9 +1,6 @@
 .Hero__Header-Container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin: auto;
     height: 80px;
 
     .Hero__Nav-container {
@@ -12,13 +9,13 @@
             align-items: center;
             height: 100%;
         }
-    
+
         .Hero__list-nav {
             display: flex;
-            gap: 25px;
+            gap: 50px;
             margin-top: 10px;
         }
-    
+
         .Hero__Web-Studio {
             font-family: 'Raleway', sans-serif;
             font-weight: 700;
@@ -29,7 +26,11 @@
             color: var(--color-primario);
     
         }
-    
+
+        .Hero__SSP{
+            color: rgba(37, 35, 35, 0.637);
+        }
+
         .Hero__Estudio {
             display: flex;
             font-family: 'Roboto', sans-serif;
@@ -40,10 +41,11 @@
             color: var(--color-primario);
             position: relative;
         }
-    
+
         .Hero__Estudio:hover,
         .Hero__Estudio:focus {
             color: var(--color-primario);
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
         .Hero__Estudio::after {
@@ -75,12 +77,12 @@
         .Hero__Portafolio:focus,
         .Hero__Contactos:focus {
             color: var(--color-primario);
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
         .Hero__contacts-nav {
-            margin-left: auto;
             display: flex;
-            gap: 20px;
+            gap: 30px;
             align-items: center;
         }
     
@@ -118,6 +120,7 @@
             fill: var(--color-primario);
             color: var(--color-primario);
             text-decoration: none;
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
         .Hero__mail-container:hover .Hero__icon,
@@ -159,6 +162,7 @@
         .Hero__telf:active .Hero__icon use {
             fill: var(--color-primario);
             color: var(--color-primario);
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
         .Hero__mail-icon:focus .Hero__icon use,
@@ -169,6 +173,7 @@
         .Hero__telf:focus .Hero__icon {
             fill: var(--color-primario);
             color: var(--color-primario);
+            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
 
@@ -186,6 +191,7 @@
         
                 .Hero__Portafolio-2:hover {
                     color: var(--color-primario);
+                    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 }
         
                 .Hero__Portafolio-2:focus {
@@ -218,18 +224,44 @@
                 .Hero__Portafolio-2:hover,
                 .Contactos-2:hover {
                     color: var(--color-primario);
+                    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 }
         
                 .Hero__Estudio-2:focus,
                 .Hero__Portafolio-2:focus,
                 .Contactos-2:focus {
                     color: var(--color-primario);
+                    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
                 }
+
+        
 }
 
-@media screen and (max-width: 780px) {
+@include screen-480 {
 
-    .Hero__Web-Studio{
+    .Hero__Web-Studio {
+        position: relative;
+        left: 30px;
+    }
+
+    .Hero__Header-Container .Hero__list-nav{
+        display: none;
+    }
+
+    .Hero__Header-Container .Hero__contacts-nav{
+        display: none;
+    }
+
+    header {
+    margin: 0 auto;
+    width: 480.99px;
+    border-bottom: 1px solid var(--color-cuaternario);
+    }
+}
+
+@include screen-768 {
+
+    .Hero__Web-Studio {
         position: relative;
         left: 15px;
     }
@@ -240,12 +272,14 @@
         margin-top: 10px;
     }
 
-    .Hero__telf{
+    .Hero__telf {
         position: relative;
         right: 10px;
     }
 
-    
-
-
+    header {
+    margin: 0 auto;
+    width: 767px;
+    border-bottom: 1px solid var(--color-cuaternario);
+    }
 }

@@ -1,17 +1,46 @@
 .customers {
-    width: 1200px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    margin: 0 auto;
+    padding: 47px 0;
+    
+    .customers__container_Svg {
+        width: 1200px;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+
+    .customers__background-svg{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .customers__fondo_Svg {    
+        width: 170px;
+        height: 81px;
+        border: 1px solid var(--color-septimo);
+        border-radius: 4px;
+        margin-bottom: 30px;
+    }
+
+    .customers__fondo_Svg:hover {
+        box-sizing: border-box;
+        border: 1px solid var(--color-primario);
+        border-radius: 4px;
+    }
+
+    .customers__icn {
+        width: 170px;
+        height: 81px;
+        fill: var(--color-septimo);
+    }
 
     .customers__texto {
         width: 100%;
         height: 162px;
-        margin-top: 70px;
     }
 
-    .customers__title h2 {
+    .customers__title{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -20,72 +49,62 @@
         text-align: center;
         letter-spacing: 0.03em;
         color: var(--color-secundario);
+        margin-bottom: 50px;
     }
 
-    .customers__fondo_Svg {
-        box-sizing: border-box;
-        width: 170px;
-        height: 81px;
-        border: 1px solid var(--color-septimo);
-        border-radius: 4px;
-        margin-left: 30px;
-    }
-
-    .customers__fondo_Svg:hover {
-        box-sizing: border-box;
-        width: 170px;
-        height: 81px;
-        border: 1px solid var(--color-primario);
-        border-radius: 4px;
-    }
-
-    .customers__container_Svg {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: -20px;
-    }
-
-    .customers__icn {
-        stroke-width: 0;
-        stroke: currentColor;
-        fill: var(--color-septimo);
-    }
 
     .customers__icn:hover {
         fill: var(--color-primario);
     }
+
 }
 
-@media (max-width: 720px) {
+@include screen-480 {
 
-    .customers__container {
+    .customers .customers__container_Svg {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .customers__background-svg {
         flex-wrap: wrap;
-        justify-content: space-between;
+        width: 90%;
     }
 
     .customers .customers__fondo_Svg {
-        width: 273px;
-        display: flex;
-        justify-content: center;
+        width: 200px;
     }
 
-    .customers svg {
-        display: flex;
-        justify-content: center;
+    .customers__container_Svg svg {
         position: relative;
-        left: 45px;
+        left: 20px;
+        width: 100%;
+    }
+}
+
+@include screen-768 {
+
+    .customers .customers__container_Svg{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 15px;
     }
 
-    .customers__container_Svg {
+    .customers__background-svg{
         flex-wrap: wrap;
-        justify-content: space-between;
+        width: 738px;
     }
 
-    .customers__fondo_Svg {
-        flex-basis: calc(50% - 20px);
-        margin-bottom: 30px;
+    .customers .customers__fondo_Svg {
+        width: 226px;
+        
     }
 
+    .customers__container_Svg svg{
+        position: relative;
+        left: 30px;
+        width: 226px;
+    }
 }
